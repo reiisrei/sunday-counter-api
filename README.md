@@ -12,27 +12,27 @@ The Sunday Counter API is a Laravel-based web service that calculates the number
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
-```json
+```bash
 git clone https://github.com/reiisrei/sunday-counter-api.git
 ```
 2. Navigate to the project directory:
-```json
+```bash
 cd sunday-counter-api
 ```
 3. Install dependencies:
-```json
+```bash
 composer install
 ```
 4. Copy the `.env.example` file to `.env` and modify according to your environment:
-```json
+```bash
 cp .env.example .env
 ```
 5. Generate an application key:
-```json
+```bash
 php artisan key:generate
 ```
 6. Serve the application:
-```json
+```bash
 php artisan serve
 ```
 
