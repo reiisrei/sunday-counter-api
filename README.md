@@ -51,8 +51,9 @@ POST /api/count-sundays
   "end_date": "YYYY-MM-DD"
 }
 
-Successful Response
+### Successful Response
 
+```json
 {
-  "number_of_sundays": number
+  "number_of_sundays": 5
 }
